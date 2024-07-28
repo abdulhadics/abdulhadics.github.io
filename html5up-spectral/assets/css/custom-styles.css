@@ -1,0 +1,55 @@
+/* custom-styles.css */
+#photo .spotlight .image img {
+    width: 100%;
+    height: auto;
+}
+
+#two .spotlight .image img {
+    width: 100%;
+    height: auto;
+}
+
+#two .spotlight .content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+#two .spotlight h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#two .spotlight p {
+    color: #666;
+}
+.circular-image {
+    width: 150px !important; /* Adjust size as needed */
+    height: 150px !important; /* Adjust size as needed */
+    border-radius: 50% !important;
+    object-fit: cover !important; /* Ensures the image covers the container */
+}
+
+
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+a.github-button {
+    margin-top: 10px; /* Move the button 10 pixels down */
+    background-color: orange; /* Change button color to orange */
+    color: white; /* Ensure the text color is readable */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Ensure proper spacing */
+}
+
+a.github-button:hover {
+    background-color: darkorange; /* Darker orange on hover */
+}
