@@ -53,3 +53,14 @@ a.github-button {
 a.github-button:hover {
     background-color: darkorange; /* Darker orange on hover */
 }
+
+
+<style>
+    .custom-footer {
+        color: rgb(99, 5, 5);
+        list-style: none; /* Optional: if you want to remove the bullet points */
+        padding: 0; /* Optional: if you want to remove the padding */
+        margin: 0; /* Optional: if you want to remove the margin */
+        font-size: 14px; /* Adjust the font size to match the previous text */
+    }
+</style>
