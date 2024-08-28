@@ -11,6 +11,34 @@
                 color: gray;
                 font-size: 14px; /* Adjust the font size as needed */
             }
+           
+.button-3d {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px #3e8e41;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.button-3d:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px #3e8e41;
+    transform: translateY(-2px);
+}
+
+.button-3d:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #3e8e41;
+    transform: translateY(0);
+}
+
         </style>
     </head>
     <body class="landing is-preload">
@@ -31,6 +59,7 @@
                     </p>
                     <ul class="actions special">
                         <li><a href="https://www.linkedin.com/in/abdul-hadi-b66113300/" class="button primary">GO TO MY LinkedIn</a></li>
+                        <li><a href="docs\ABDUL HADI RESUME 28 JAUG 24.docx" class="button">Download My Resume</a></li>
                     </ul>
                 </div>
                 <a href="#one" class="more scrolly">MORE ABOUT Me</a>
@@ -83,10 +112,57 @@
                 <section class="spotlight">
                     <div class="image"><img src="images/pic10.jpeg" alt="" /></div>
                     <div class="content">
-                        <h2>Other Experiences<br /></h2>
+                        <div class="experience">
+                            <h3>Experience Highlights</h3>
+                            <ul>
+                                <li><strong>Built and deployed 5 AI projects in 5 weeks:</strong>
+                                    <ul>
+                                        <li>Utilized React JS and Next.js for dynamic user interfaces.</li>
+                                        <li>Integrated Firebase for real-time database management and user authentication.</li>
+                                        <li>Employed Clerk for seamless user management.</li>
+                                        <li>Deployed using Vercel for efficient CI/CD.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Developed a SaaS product for dynamic flashcard generation:</strong>
+                                    <ul>
+                                        <li>Leveraged Next.js for seamless integration.</li>
+                                        <li>Utilized Llama 3.1 LLM via Groq API for intelligent flashcards.</li>
+                                        <li>Integrated Stripe API for monetization and subscription management.</li>
+                                        <li>
+                                         
+                                            <a href="https://github.com/abdulhadics/aigeneratedflashcard.git" class="button-3d" target="_blank">View Code</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><strong>Collaborated on an interactive customer support agent:</strong>
+                                    <ul>
+                                        <li>Built with Next.js for a responsive user experience.</li>
+                                        <li>Integrated a custom RAG pipeline with OpenAI for accurate responses.</li>
+                                        <li>Used Pinecone for vector-based similarity search.</li>
+                                    </ul>
+                                </li>
+                                
+                                <li><strong>Implemented a web scraper for <a href="https://www.ratemyprofessors.com/" class="button-3d" target="_blank">Rate My Professor</a>:</strong>
+                                    <ul>
+                                        <li>Built a JavaScript web scraper for extracting professor ratings.</li>
+                                        <li>Upserted data to a Pinecone index for scalable retrieval.</li>
+                                        <li>Integrated with RAG pipeline using LangChain and OpenAI GPT-4o.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Participated in weekly sessions:</strong>
+                                    <ul>
+                                        <li>Gained insights from engineers at Google, Y Combinator, Stanford, and more.</li>
+                                        <li>Applied industry best practices to enhance project quality and innovation.</li>
+                                    </ul>
+                               
+                        
                         <p>|Contributing in open source and AI projects @ SWE FELLOWSHIP|</p>
                         <p>|<a href="https://github.com/abdulhadics/abdulhadics.github.io.git" class="github-button">WEB DEVELOPMENT IN HTML AND CSS</a>|</p>
                         <p>|Making a project called <a href="https://github.com/abdulhadics/AI-THERAPIST" class="github-button">AI Therapist</a> in TypeScript, JS, HTML, and CSS|</p>
+                    </ul>
+                                </li>
+                                <li><em>Remote, SF, USA</em></li>
+                            </ul>
                     </div>
                 </section>
             </section>
